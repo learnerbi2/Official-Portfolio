@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+*{
+    font-family: "Poppins",sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Define custom theme values */
+@theme {
+  --animation-blob: blob 10s infinite;
+  --keyframes-blob: {
+    0% { transform: scale(1); }
+    33% { transform: scale(1.2); }
+    66% { transform: scale(0.8); }
+    100% { transform: scale(1); }
+  };
+  --bg-skills-gradient: linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%, rgba(201, 32, 184, 0) 50%), linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%);
+}
+
+/* Register custom properties */
+@property --animation-blob {
+  syntax: '<string>';
+  inherits: false;
+  initial-value: blob 10s infinite;
+}
+
+@property --bg-skills-gradient {
+  syntax: '<string>';
+  inherits: false;
+  initial-value: none;
+}
+
+/* Apply styles using @layer */
+@layer utilities {
+  .animate-blob {
+    animation: var(--animation-blob);
+ /* polygon design at end of skill section */
+  
+  }
+
+  @keyframes blob {
+    0% { transform: scale(1); }
+    33% { transform: scale(1.2); }
+    66% { transform: scale(0.8); }
+    100% { transform: scale(1); }
+  }
+
+  .bg-skills-gradient {
+    background-image: var(--bg-skills-gradient);
+  }
+}
+/* @layer utilities{
+   .clip-path-custom{
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
+  }
+} */
