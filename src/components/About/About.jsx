@@ -1,5 +1,5 @@
 import React from 'react'
-import ReactTypingEffect from 'react-typing-effect'
+import ReactTypingEffect from 'react-typing-effect';
 import pic1 from '../../assets/pic1.jpg'
 import Tilt from 'react-parallax-tilt'
 function About() {
@@ -13,7 +13,7 @@ function About() {
           <h3 className='text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight'>
             <span className="text-white">I am a </span>
             Full Stack Developer
-            {/* <ReactTypingEffect
+            {/* <TypingEffect
               text={[
                 'Fullstack Developer',
                 'App Developer',
@@ -30,6 +30,9 @@ function About() {
               //   <span className="text-[#8245ec]">{cursor}</span>
               // )}
             /> */}
+        {/* <ReactTypingEffect
+        text={["Hello.", "World!"]}
+      /> */}
 
           </h3>
           {/* About Me Paragraph */}

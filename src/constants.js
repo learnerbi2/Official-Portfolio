@@ -55,7 +55,10 @@ import webverLogo from './assets/work_logo/web_dig.png';
 import cmLogo from './assets/work_logo/cm.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
-
+import amazonLogo from './assets/work_logo/amazon.png'
+import spotifyLogo from './assets/work_logo/spotify.png';
+import passopLogo from './assets/work_logo/passop.png';
+import cvd_Logo from './assets/work_logo/cvd_logo.png';
 
 export const SkillsInfo = [
   {
@@ -212,53 +215,53 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
-      title: "GitHub Profile Detective",
+      title: "PassOp-The Password Manager",
       description:
-        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-      image: githubdetLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
+        "A password manager",
+      image:passopLogo,
+      tags: ["HTML", "CSS", "JavaScript", "React JS", "API","MongoDB"],
+      github: "https://github.com/learnerbi2/PassOP.git",
       webapp: "https://githubprofiledetective.netlify.app/",
     },
     {
       id: 1,
-      title: "CS Prep",
+      title: "CVD Risk Assessment",
       description:
-        "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-      image: csprepLogo,
+        "Health Risk Predictor",
+      image: cvd_Logo,
       tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/CSPrep",
+      github: "https://github.com/learnerbi2/CVD-.git",
       webapp: "https://csprep.netlify.app/",
     },
     {
       id: 2,
-      title: "Movie Recommendation App",
+      title: "Spotify-The Music Player",
       description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-      image: movierecLogo,
+        "Music player",
+      image: spotifyLogo,
       tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
+      github: "https://github.com/learnerbi2/Spotify-Clone.git",
       webapp: "https://movie-recommendation-app-jet.vercel.app/",
     },
     {
       id: 3,
-      title: "Email Validator NPM Package",
+      title: "Amazon Web",
       description:
-        "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-      image: npmLogo,
-      tags: ["React JS", "Node.js", "NPM", "Validation"],
-      github: "https://github.com/codingmastr/cmtk-email-validator",
-      webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+        "Amazon Experience",
+      image: amazonLogo,
+      tags: ["JavaScript","HTML", "CSS"],
+      github: "https://github.com/learnerbi2/Amazon.git",
+      webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
     },
     {
       id: 4,
-      title: "Task Reminder Chrome Extension Tool",
+      title: "BLOG HUB",
       description:
-        "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-      image: taskremLogo,
-      tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-      github: "https://github.com/codingmastr/Task-Reminder-Tool",
-      webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
+        "BLog hub is Blogging website where users can read and write blogs on various topics. Built with React for the frontend and Node.js with Express for the backend, it features user authentication, CRUD operations for blog posts, and a responsive design for an optimal reading experience across devices.",
+      image: npmLogo,
+      tags: ["React JS", "Node.js", "Atlas", "Express", "HTML", "CSS", "JavaScript"],
+      github: "https://github.com/learnerbi2/BlogHub-Frontend.git",
+      webapp: "https://blog-hub-frontend-zeta.vercel.app/",
     },
     {
       id: 5,

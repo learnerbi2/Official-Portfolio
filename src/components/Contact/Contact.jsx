@@ -10,14 +10,10 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs.sendForm(
-      // import.meta.env.VITE_EMAIL_SERVICE_ID,
-      // import.meta.env.VITE_EMAIL_TEMPLATE_ID,
-      // form.current,
-      // import.meta.env.VITE_EMAIL_PUBLIC_KEY
-      "service_krzafh6", //service id
-      "template_7uizat4", //template id
+      import.meta.env.VITE_EMAILJS_SERVICE_ID || "service_krzafh6", //service id
+      import.meta.env.VITE_EMAILJS_TEMPLATE_ID || "template_7uizat4", //template id
        form.current,
-      "oTbOpNY1vRJScRTZT" //public key
+      import.meta.env.VITE_EMAILJS_PUBLIC_KEY || "oTbOpNY1vRJScRTZT" //public key
     )
       .then(
         () => {
