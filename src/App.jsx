@@ -9,7 +9,7 @@ import Navbar from './components/Navbar/Navbar'
 import Skills from './components/Skills/Skills'
 import Work from './components/Work/Work'
 import BlurBlob from './components/BlurBlob'
-import Chatbot from './components/Chatbot/chatbot'
+import Chatbot from './components/Chatbot/Chatbot'
 
 function App() {
   
