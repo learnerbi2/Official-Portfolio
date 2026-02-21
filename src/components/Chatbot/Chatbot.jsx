@@ -28,7 +28,7 @@ export default function Chatbot() {
     setLoading(true);
 
     try {
-      const { data } = await axios.post('http://localhost:5000/api/chat', {
+      const { data } = await axios.post('https://portfolio-backend-chatbot.onrender.com/api/chat', {
         messages: updatedMessages
       },  { headers: { 'Content-Type': 'application/json' } }
     );
