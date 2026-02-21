@@ -13,27 +13,7 @@ function About() {
           <h3 className='text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight'>
             <span className="text-white">I am a </span>
             Full Stack Developer
-            {/* <TypingEffect
-              text={[
-                'Fullstack Developer',
-                'App Developer',
-                'UI/UX Designer',
-                'Coder',
-              ]}
-              speed={100}
-              eraseSpeed={50}
-              typingDelay={500}
-              eraseDelay={2000}
-              cursorRenderer={(cursor) => cursor}
-
-              // cursorRenderer={(cursor) => (
-              //   <span className="text-[#8245ec]">{cursor}</span>
-              // )}
-            /> */}
-        {/* <ReactTypingEffect
-        text={["Hello.", "World!"]}
-      /> */}
-
+            
           </h3>
           {/* About Me Paragraph */}
           <p className='text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed'>
@@ -43,7 +23,7 @@ function About() {
             modern technologies to create seamless user experiences and
             efficient solutions.</p>
           <a
-            href='https://drive.google.com/file/d/1JAPr3LLSKH81FywKAyWNRNyVZ4KJjM-V/view?usp=drive_link'
+            href='https://drive.google.com/file/d/1D7eb58ZKGU-oB5zy2ASnkkAY0i-WXIFZ/view?usp=sharing'
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
